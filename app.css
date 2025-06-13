@@ -12,6 +12,14 @@
 
 @media screen and (max-width: 740px){
 
+    header{
+    background-image: url(./Img/forestmylove.jpg);
+    background-size: cover;
+    background-repeat: space;
+    border-radius: 15px;
+    padding-bottom: 4rem;    
+}
+
     .Audio{
     width: 15rem;
     margin-top: 1rem;
@@ -124,6 +132,14 @@
 }
 
 @media screen and (min-width: 740px){
+
+    header{
+    background-image: url(./Img/forestmylove.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding-bottom: 4rem;    
+}
 
     .Audio{
     width: 15rem;
@@ -238,11 +254,7 @@ body{
 }
 
 
-header{
-    background-image: url(./Img/forestmylove.jpg);
-    border-radius: 15px;
-    padding-bottom: 4rem;    
-}
+
 
 
 
