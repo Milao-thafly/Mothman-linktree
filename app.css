@@ -49,6 +49,8 @@
     width: 80%;
     left: 0;
     border-radius: 20px;
+        text-align: center;
+
 }
 
 
@@ -64,6 +66,8 @@
     width: 100%;
     left: 0;
     border-radius: 22px;
+    text-align: center;
+
     
     cursor: pointer;
     transition: 1s;
@@ -83,7 +87,10 @@
     left: 0;
     border-radius: 20px;
 }
-
+.btn_mel > img {
+    display: flex;
+    justify-content: center;
+}
 
 .btn_mel:hover{
     background-color: rgba(8, 174, 180, 0.507);
@@ -169,6 +176,13 @@
     left: 0;
     border-radius: 20px;
     cursor: pointer;
+        text-align: center;
+
+
+    font-size: 26px;
+    font-family: 'GothSC';
+    text-decoration:  none;
+    color: white;
 }
 
 
@@ -184,6 +198,13 @@
     width: 100%;
     left: 0;
     border-radius: 22px;
+        text-align: center;
+
+
+    font-size: 26px;
+    font-family: 'GothSC';
+    text-decoration:  none;
+    color: white;
     
     cursor: pointer;
     transition: 1s;
@@ -203,6 +224,18 @@
     left: 0;
     border-radius: 20px;
     cursor: pointer;
+        text-align: center;
+
+    
+
+    font-size: 26px;
+    font-family: 'GothSC';
+    text-decoration:  none;
+    color: white;
+}
+
+.btn_mel > img {
+       
 }
 
 .btn_mel:hover{
@@ -217,6 +250,11 @@
     width: 40%;
     left: 0;
     border-radius: 22px;
+
+    font-size: 26px;
+    font-family: 'GothSC';
+    text-decoration:  none;
+    color: white;
     
     cursor: pointer;
     transition: 1s;
@@ -320,10 +358,7 @@ body{
 
 
 .btn > a {
-    font-size: 26px;
-    font-family: 'GothSC';
-    text-decoration:  none;
-    color: white;
+    
 }
 
 
